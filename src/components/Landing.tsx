@@ -32,7 +32,7 @@ export default function Landing() {
     return (
         <div className="relative w-full h-screen overflow-hidden">
 
-            <div className="flex justify-center items-center h-screen ">
+            <div className="custom-padding flex justify-center items-center h-screen ">
 
                 <Image src="/IABC-Asia-Pacific-Region-lg.png" alt="IABC-Asia-Pacific-Region-lg" width={1000} height={100} />
             </div>
@@ -40,7 +40,7 @@ export default function Landing() {
             <video
                 ref={videoRef}
                 key={videoCarousel[currentIndex]}
-                className="absolute inset-0 w-full h-full object-cover -z-20 rounded-[50px]"
+                className="absolute inset-0 w-full h-full object-cover -z-20 md:rounded-[50px] rounded-[0px]"
                 src={videoCarousel[currentIndex]}
                 autoPlay
                 muted
@@ -50,7 +50,7 @@ export default function Landing() {
 
 
             {/* 🔧 Black overlay on top of video */}
-            <div className="absolute inset-0 bg-black opacity-70 -z-10 rounded-[50px]" />
+            <div className="absolute inset-0 bg-black opacity-70 -z-10 md:rounded-[50px] rounded-[0px]" />
 
             {/* Navigation Controls or Content */}
             <div className="absolute bottom-5 w-full flex justify-center gap-3 z-10">

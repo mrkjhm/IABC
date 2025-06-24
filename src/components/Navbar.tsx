@@ -27,14 +27,25 @@ export default function Navbar() {
                     </Magnetic>
                 </Link>
 
-                <div className="flex gap-6 items-center text-white">
+                <div className="gap-10 items-center text-white md:flex hidden">
                     {menuLinks.map((link, index) => (
-                        <Link key={index} href={link.path} passHref>
-                            <p className="cursor-pointer hover:text-gray-300 transition-colors">
-                                {link.label}
-                            </p>
-                        </Link>
+                        <Magnetic key={index}>
+                            <Link href={link.path} passHref>
+                                <div className="flex items-center justify-center flex-col group">
+                                    <p className="text-lg cursor-pointer hover:text-red hover:font-bold transition-colors">
+                                        {link.label}
+                                    </p>
+                                    {/* Red dot appears only on hover */}
+                                    <div className="h-2 w-2 bg-red rounded-full mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                </div>
+                            </Link>
+                        </Magnetic>
                     ))}
+                </div>
+
+
+                <div className="text-white md:hidden flex bg-red h-10 w-10 items-center justify-center rounded-full">
+                    <i className="ri-menu-4-line"></i>
                 </div>
             </div>
         </nav>
