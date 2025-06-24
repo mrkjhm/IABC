@@ -21,27 +21,27 @@ export const image = {
 
 export const articles = [
     {
-        heading: "Lorem Ipsum Article 1",
+        heading: "Article 1",
         description: "Lorem Ipsum is simply dummy text of the Lorem Ipsum.",
         image: article_img1,
     },
     {
-        heading: "Lorem Ipsum Article 2",
+        heading: "Article 2",
         description: "Lorem Ipsum is simply dummy text of the Lorem Ipsum.",
         image: article_img2,
     },
     {
-        heading: "Lorem Ipsum Article 3",
+        heading: "Article 3",
         description: "Lorem Ipsum is simply dummy text of the Lorem Ipsum.",
         image: article_img3,
     },
     {
-        heading: "Lorem Ipsum Article 4",
+        heading: "Article 4",
         description: "Lorem Ipsum is simply dummy text of the Lorem Ipsum.",
         image: article_img4,
     },
     {
-        heading: "Lorem Ipsum Article 5",
+        heading: "Article 5",
         description: "Lorem Ipsum is simply dummy text of the Lorem Ipsum.",
         image: article_img5,
     },
@@ -75,28 +75,28 @@ export const categories = [
 export const topic =[
     {
         image: topic_1,
-        title: "Events",
+        title: "Events 1",
         date: "November 17, 2020",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non pretium urna. Ut mattis lorem eu dictum viverra. Lorem ipsum dolor sit amet.",
         place: "Place 1"
     },
     {
         image: topic_2,
-        title: "Events",
+        title: "Events 2",
         date: "November 17, 2020",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non pretium urna. Ut mattis lorem eu dictum viverra. Lorem ipsum dolor sit amet.",
         place: "Place 2"
     },
     {
         image: topic_3,
-        title: "Events",
+        title: "Events 3",
         date: "November 17, 2020",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non pretium urna. Ut mattis lorem eu dictum viverra. Lorem ipsum dolor sit amet.",
         place: "Place 3"
     },
     {
         image: topic_4,
-        title: "Events",
+        title: "Events 4",
         date: "November 17, 2020",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non pretium urna. Ut mattis lorem eu dictum viverra. Lorem ipsum dolor sit amet.",
         place: "Place 4"

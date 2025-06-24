@@ -27,11 +27,11 @@ export default function Navbar() {
                     </Magnetic>
                 </Link>
 
-                <div className="gap-10 items-center text-white md:flex hidden">
+                <div className="gap-10 items-center text-red md:flex hidden">
                     {menuLinks.map((link, index) => (
                         <Magnetic key={index}>
                             <Link href={link.path} passHref>
-                                <div className="flex items-center justify-center flex-col group">
+                                <div className="flex items-center justify-center flex-col group font-semibold">
                                     <p className="text-lg cursor-pointer hover:text-red hover:font-bold transition-colors">
                                         {link.label}
                                     </p>

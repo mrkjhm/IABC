@@ -22,7 +22,7 @@ export default function Footer() {
                         {news.map((item, index) => (
                             <div key={index} >
                                 <h3 className="mb-2 font-bold text-[20px]">{item.title}</h3>
-                                <div className="flex gap-5 ">
+                                <div className="flex gap-5">
                                     <Image src={item.icon} alt="icon" width={20} className="text-white" />
                                     <p>{item.date}</p>
                                 </div>

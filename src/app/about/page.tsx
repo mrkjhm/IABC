@@ -2,11 +2,14 @@ import React from 'react'
 import Magnetic from '@/Common/Magnetic'
 export default function Page() {
     return (
-        <div>
-            <Magnetic>
-
-            <h1>jsljflskdfjlksfds</h1>
-            </Magnetic>
-        </div>
+        <main>
+            <div className="h-screen flex items-center justify-center ">
+                <Magnetic>
+                    <div>
+                        <h1 className="font-bold text-5xl">About Page</h1>
+                    </div>
+                </Magnetic>
+            </div>
+        </main>
     )
 }
